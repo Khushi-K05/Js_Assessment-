@@ -23,6 +23,7 @@ function mintNFT (Name,Age,Education,PhoneNo,Gender) {
         "gender" :Gender
     };
     ArrayNFTs.push(ObjNFTs);
+    console.log("minted :"+ Name);
 
 
 }
@@ -50,5 +51,5 @@ mintNFT("Karam",43,"BA",8928492324,"Male");
 
 listNFTs ();
 
-getTotalSupply()
+getTotalSupply();
 
